@@ -8,7 +8,7 @@ spec:
     spec:
       containers:
         - name: publisher
-          image: order-publisher:latest
+          image: chimdi247/order-publisher:latest
           imagePullPolicy: Never
           args: ["50"]
           env:
