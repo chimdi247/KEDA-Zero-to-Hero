@@ -15,8 +15,8 @@ spec:
     spec:
       containers:
         - name: consumer
-          image: order-consumer:latest
-          imagePullPolicy: Never
+          image: chimdi247/order-consumer:latest
+          imagePullPolicy: Always
           env:
             - name: RABBITMQ_HOST
               value: "rabbitmq"
